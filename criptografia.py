@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1_sL5XfYBVi27o8H8x3dnBfdEyCTwRj9N
 """
 
-# Tarefa 1.1
+
 
 !pip install pycryptodome
 from Crypto.Cipher import AES
@@ -37,7 +37,6 @@ except ValueError:
 
 print('---------------------------------------------------------------------------------------------------------------')
 
-# Tarefa 1.2
 
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
@@ -69,7 +68,7 @@ print('vetor de inicialização em hexadecimal: ', hex_iv)
 print('texto cifrado (em formato hexadecimal): ', msg_hexa)
 print('--------------------------------------------------------------------------------------------------')
 
-# Tarefa 2.1
+
 
 import random
 
@@ -91,7 +90,7 @@ print(f"Valor de B (em decimal): {B}")
 print('--------------------------------------------------------------------------------------------')
 
 
-# Tarefa 2.2
+
 
 # Definindo o valor de A enviado por Alice
 A = 105008283869277434967871522668292359874644989537271965222162
@@ -106,7 +105,7 @@ print(f"Valor de v (em decimal): {v}")
 print('--------------------------------------------------------------------------------------------')
 
 
-# Tarefa 2.3
+
 
 import hashlib
 
